@@ -1,0 +1,33 @@
+{
+	"name": "@setsu-tp/styled-components",
+	"version": "1.0.0",
+	"description": "A utilitary lib to create styled components in React, with moduled CSS.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"prepublishOnly": "npm run build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/IttoSanzzo/ComponentStylizationUtils.git"
+	},
+	"bugs": {
+		"url": "https://github.com/IttoSanzzo/ComponentStylizationUtils/issues"
+	},
+	"homepage": "https://github.com/IttoSanzzo/ComponentStylizationUtils#readme",
+	"author": "IttoSanzzo",
+	"license": "MIT",
+	"keywords": [
+		"react",
+		"styled-components",
+		"utils"
+	],
+	"dependencies": {
+		"react": "^18.0.0"
+	},
+	"devDependencies": {
+		"@types/react": "^19.0.12",
+		"typescript": "^5.8.2"
+	}
+}
