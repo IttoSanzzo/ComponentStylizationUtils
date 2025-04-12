@@ -1,6 +1,6 @@
 {
 	"name": "@setsu-tp/styled-components",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "A utilitary lib to create styled components in React, with moduled CSS.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -21,6 +21,7 @@
 	"keywords": [
 		"react",
 		"styled-components",
+		"styled-elements",
 		"utils"
 	],
 	"dependencies": {
